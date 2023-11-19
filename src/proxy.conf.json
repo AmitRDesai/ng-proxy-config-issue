@@ -1,0 +1,10 @@
+{
+  "/assets": {
+    "target": "https://cdnjs.cloudflare.com/ajax",
+    "pathRewrite": {
+      "^/assets": ""
+    },
+    "secure": false,
+    "changeOrigin": true
+  }
+}

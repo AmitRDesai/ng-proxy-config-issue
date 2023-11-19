@@ -60,7 +60,8 @@
               "buildTarget": "ng-proxy-cofig-issue:build:production"
             },
             "development": {
-              "buildTarget": "ng-proxy-cofig-issue:build:development"
+              "buildTarget": "ng-proxy-cofig-issue:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
